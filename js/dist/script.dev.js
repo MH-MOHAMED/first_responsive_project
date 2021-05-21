@@ -414,11 +414,11 @@ window.onload = function () {
     // start louding
     var loud = document.querySelector(".louding");
     loud.style.display = "none";
-    document.body.style.overflow = "auto";
+    document.body.style.overflowY = "auto";
     hero_content = document.querySelector(".hero-content"); // start hero_content
 
     hero_content.style.cssText = "transform:scale(1,1);";
-  }, 4000);
+  }, 2000);
 }; // aside
 
 
